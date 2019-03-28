@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE789CDD224CD9E400F16984 /* PayOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE789CDC224CD9E300F16984 /* PayOptionViewController.swift */; };
+		AE789CDF224CDA3000F16984 /* QuickPayOptionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE789CDE224CDA3000F16984 /* QuickPayOptionsVC.swift */; };
+		AE789CE1224CDA6100F16984 /* CardPayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE789CE0224CDA6100F16984 /* CardPayViewController.swift */; };
+		AE789CE3224CDAB300F16984 /* SelectOptionsPayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE789CE2224CDAB300F16984 /* SelectOptionsPayVC.swift */; };
 		AEC610E7222E4C170074AC7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC610E6222E4C170074AC7D /* AppDelegate.swift */; };
 		AEC610E9222E4C170074AC7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC610E8222E4C170074AC7D /* ViewController.swift */; };
 		AEC610EC222E4C170074AC7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC610EA222E4C170074AC7D /* Main.storyboard */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE789CDC224CD9E300F16984 /* PayOptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayOptionViewController.swift; sourceTree = "<group>"; };
+		AE789CDE224CDA3000F16984 /* QuickPayOptionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickPayOptionsVC.swift; sourceTree = "<group>"; };
+		AE789CE0224CDA6100F16984 /* CardPayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPayViewController.swift; sourceTree = "<group>"; };
+		AE789CE2224CDAB300F16984 /* SelectOptionsPayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectOptionsPayVC.swift; sourceTree = "<group>"; };
 		AEC610E3222E4C170074AC7D /* VendorManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VendorManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEC610E6222E4C170074AC7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEC610E8222E4C170074AC7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +64,10 @@
 			children = (
 				AEC610E6222E4C170074AC7D /* AppDelegate.swift */,
 				AEC610E8222E4C170074AC7D /* ViewController.swift */,
+				AE789CDC224CD9E300F16984 /* PayOptionViewController.swift */,
+				AE789CDE224CDA3000F16984 /* QuickPayOptionsVC.swift */,
+				AE789CE0224CDA6100F16984 /* CardPayViewController.swift */,
+				AE789CE2224CDAB300F16984 /* SelectOptionsPayVC.swift */,
 				AEC610EA222E4C170074AC7D /* Main.storyboard */,
 				AEC610ED222E4C1C0074AC7D /* Assets.xcassets */,
 				AEC610EF222E4C1C0074AC7D /* LaunchScreen.storyboard */,
@@ -135,7 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE789CDD224CD9E400F16984 /* PayOptionViewController.swift in Sources */,
+				AE789CE1224CDA6100F16984 /* CardPayViewController.swift in Sources */,
+				AE789CE3224CDAB300F16984 /* SelectOptionsPayVC.swift in Sources */,
 				AEC610E9222E4C170074AC7D /* ViewController.swift in Sources */,
+				AE789CDF224CDA3000F16984 /* QuickPayOptionsVC.swift in Sources */,
 				AEC610E7222E4C170074AC7D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
