@@ -28,3 +28,26 @@ class SelectOptionsPayVC: UIViewController {
     */
 
 }
+
+
+
+//        let content = UNMutableNotificationContent()
+//        content.title = "Local Notifications"
+//        content.subtitle =  "Good Morning"
+//
+//        content.body = "This is test local notification"
+//
+//        content.categoryIdentifier = "local"
+//
+//        let url = Bundle.main.url(forResource: "work-briefcase", withExtension: "png")
+//
+//        let attachment = try! UNNotificationAttachment(identifier: "image", url: url!, options: [:])
+//        content.attachments = [attachment]
+//
+//        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 10, repeats: false)
+//
+//        let request = UNNotificationRequest(identifier: "localNotification", content: content, trigger: trigger)
+//
+//        UNUserNotificationCenter.current().add(request) { (error) in
+//            print(error)
+//        }
