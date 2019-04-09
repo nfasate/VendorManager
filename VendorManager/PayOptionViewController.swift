@@ -27,7 +27,13 @@ class PayOptionViewController: UIViewController {
         fireLocalNotification()
     }
     
-
+    @IBAction func quickPollAction(_ sender: UIButton) {
+        let viewController = QuickPollViewController()
+        viewController.view.bounds = view.bounds
+        let nav = UINavigationController(rootViewController: viewController)
+        self.present(nav, animated: true, completion: nil)
+    }
+    
     func fireLocalNotification() {
         // find out what are the user's notification preferences
         UNUserNotificationCenter.current().getNotificationSettings { (settings) in

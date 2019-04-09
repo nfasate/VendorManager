@@ -11,6 +11,7 @@
 		AE789CDF224CDA3000F16984 /* QuickPayOptionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE789CDE224CDA3000F16984 /* QuickPayOptionsVC.swift */; };
 		AE789CE1224CDA6100F16984 /* CardPayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE789CE0224CDA6100F16984 /* CardPayViewController.swift */; };
 		AE789CE3224CDAB300F16984 /* SelectOptionsPayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE789CE2224CDAB300F16984 /* SelectOptionsPayVC.swift */; };
+		AE8E1441225C6EA400B9683F /* QuickPollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8E1440225C6EA400B9683F /* QuickPollViewController.swift */; };
 		AEC610E7222E4C170074AC7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC610E6222E4C170074AC7D /* AppDelegate.swift */; };
 		AEC610E9222E4C170074AC7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC610E8222E4C170074AC7D /* ViewController.swift */; };
 		AEC610EC222E4C170074AC7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEC610EA222E4C170074AC7D /* Main.storyboard */; };
@@ -54,6 +55,7 @@
 		AE789CDE224CDA3000F16984 /* QuickPayOptionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickPayOptionsVC.swift; sourceTree = "<group>"; };
 		AE789CE0224CDA6100F16984 /* CardPayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPayViewController.swift; sourceTree = "<group>"; };
 		AE789CE2224CDAB300F16984 /* SelectOptionsPayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectOptionsPayVC.swift; sourceTree = "<group>"; };
+		AE8E1440225C6EA400B9683F /* QuickPollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickPollViewController.swift; sourceTree = "<group>"; };
 		AEC610E3222E4C170074AC7D /* VendorManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VendorManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEC610E6222E4C170074AC7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEC610E8222E4C170074AC7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 				AEE6D6D9224DFE5C000062B0 /* work-briefcase.png */,
 				AEE6D6DB224E06B1000062B0 /* florvideoplayback.mp4 */,
 				AEC610F2222E4C1C0074AC7D /* Info.plist */,
+				AE8E1440225C6EA400B9683F /* QuickPollViewController.swift */,
 			);
 			path = VendorManager;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 				AE789CE1224CDA6100F16984 /* CardPayViewController.swift in Sources */,
 				AE789CE3224CDAB300F16984 /* SelectOptionsPayVC.swift in Sources */,
 				AEC610E9222E4C170074AC7D /* ViewController.swift in Sources */,
+				AE8E1441225C6EA400B9683F /* QuickPollViewController.swift in Sources */,
 				AE789CDF224CDA3000F16984 /* QuickPayOptionsVC.swift in Sources */,
 				AEC610E7222E4C170074AC7D /* AppDelegate.swift in Sources */,
 			);
